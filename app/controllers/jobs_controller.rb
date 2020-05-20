@@ -3,5 +3,6 @@ class JobsController < ApplicationController
   end
 
   def new
-  end
+  @job = Job.new
+end
 end
